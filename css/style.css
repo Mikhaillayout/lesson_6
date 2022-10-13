@@ -1,0 +1,130 @@
+/* ==================== Подключение обнуляющего стиля === (Обнуляет дефолтные настройки) === Начало === 2022-10 ==================== */
+@import "reset.css";
+/* ==================== Подключение обнуляющего стиля === (Обнуляет дефолтные настройки) === Конец === 2022-10 ==================== */
+
+/* ==================== Подключение шрифтов ===  === Начало === 2022-10 ==================== */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+@font-face {
+  font-family: "Atomicaboy";
+  src: url("../fonts/Atomicaboy-Regular.woff2") format("woff2"), url("../fonts/Atomicaboy-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+/* ==================== Подключение шрифтов ===  === Конец === 2022-10 ==================== */
+
+body {
+  font-family: "Lato";
+  font-size: 16px;
+  background: #e5e5e5;
+}
+.header,
+.footer {
+  background-color: slategray;
+  padding: 20px;
+  margin: 0px 0px 20px 0px;
+  text-align: center;
+  word-spacing: 50px;
+  font-size: 25px;
+  color: violet;
+}
+.text-uppercase {
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.main {
+  max-width: 810px;
+  margin: 0 auto;
+}
+.title {
+  font-size: 46px;
+  line-height: 60px;
+  font-weight: 900;
+  margin: 0px 0px 92px 0px;
+}
+.main-image {
+  margin: 0px 0px 60px 0px;
+}
+img {
+  max-width: 100%;
+}
+.text {
+  line-height: 160%;
+  color: #424551;
+  margin: 0px 0px 24px 0px;
+}
+.text .text-bold {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+}
+.text .text-right {
+  padding: 0px 0px 0px 58px;
+}
+.list .list {
+  padding: 0px 0px 0px 32px;
+  margin: 0px 0px 5px 0px;
+}
+div.list {
+  margin: 0px 0px 24px 0px;
+}
+.text p:last-child {
+  margin: 0px 0px 0px 0px;
+}
+
+/* ==================== Тестики === (Тестики) === Начало === 2022-10 ==================== */
+.tests {
+  font-family: "Atomicaboy", serif;
+  font-size: 20px;
+  color: tomato;
+}
+.test-one {
+  font-style: italic;
+  line-height: 50px;
+  word-spacing: 60px;
+  text-indent: 300px;
+  text-align: left;
+  color: black;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 10px;
+  padding: 20px;
+  margin: 20px;
+  background-color: ivory;
+  outline: 10px solid red;
+}
+.test-two {
+  background-color: aqua;
+  max-width: 700px;
+  margin: 0 auto 30px;
+  max-height: 200px;
+  overflow: auto;
+}
+.test-two p {
+  display: inline;
+  padding: 20px;
+  margin: 20px;
+  line-height: 100px;
+  background-color: #424551;
+  opacity: 0.5;
+}
+.test-three {
+  display: none;
+}
+.test-four {
+  border: 5px solid black;
+  border-radius: 30px;
+  box-shadow: 10px -10px 30px 20px black;
+  max-width: 700px;
+  max-height: 200px;
+  overflow: hidden;
+  padding: 20px;
+  margin: 0 auto 20px;
+}
+.test-four a:first-child {
+  visibility: hidden;
+  display: inline-block;
+  margin: 0px 0px 10px 0px;
+}
+/* ==================== Тестики === (Тестики) === Конец === 2022-10 ==================== */
